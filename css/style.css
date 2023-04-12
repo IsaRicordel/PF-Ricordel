@@ -1,0 +1,321 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html INDEX */
+/* estilos de Header */
+
+header{
+    background-color: #ffe4c4;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar-brand{
+    padding-top: 5px;
+    margin: 10px;
+    font-weight: 800;
+    -webkit-text-stroke: 0.7px saddlebrown;
+}
+
+header nav ul li{
+
+    text-align: center;
+    font-size: 15px;
+    padding: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgba(233, 166, 108, 0.952);
+}
+
+/* estilos de Main */
+
+.banner{
+    background-image: url(../img/recordar-aprender-a-aprender.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 1fr;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    padding: 45px
+}
+
+.contenedor h2{
+    font-size: 40px;
+}
+
+.contenedor p{
+    font-size: 19px;
+}
+
+/* Para html NOSOTROS */
+
+section.cont1{
+    height: 100px;
+    background-color: rgba(143, 221, 195, 0.849);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+}
+
+.nosotros{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main.nosotros div{
+    width: 600px;
+}
+
+main.nosotros p{
+    padding-top: 5px;
+}
+
+.nos2 h2{
+    margin-top: 10px;
+}
+
+
+/* Para html SERVICIOS */
+
+.cuadro1 {
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: justify;
+    padding-right: 400px;
+    display: flex;
+}
+
+.cuadro1 p{
+    padding-top: 15px;
+}
+
+.img1{
+    width: 30%;
+    height: 25%;
+    margin-right: 15px;
+}
+
+.int1{
+    padding-top: 50px;
+}
+
+.cuadro2 {
+    padding-top: 40px;
+    padding-left: 50px;
+    text-align: justify;
+    padding-right: 400px; 
+    display: flex; 
+}
+
+.cuadro2 p{
+    padding-top: 15px;
+}
+
+.img2{
+    width: 350px;
+    height: 190px;
+    padding-left: 20px;
+    border-radius: 5%;
+}
+
+.cuadro3 {
+    padding-top: 40px;
+    padding-left: 50px;
+    text-align: justify;
+    padding-right: 400px;
+    padding-bottom: 50px;
+    display: flex; 
+}
+
+.cuadro3 p{
+    padding-top: 15px;
+}
+
+.img3{
+    width: 350px;
+    height: 190px;
+    padding-left: 20px;
+    border-radius: 5%;
+}
+
+/* Para html IDIOMAS */
+
+.laCaja{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.caja1{
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+
+}
+
+.caja1 h3{
+    padding-top: 45%;
+}
+
+.caja2{
+    background-color: rgb(162, 208, 226);
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+}
+
+.caja2 h3{
+    padding-top: 45%;
+}
+
+.caja3{
+    background-color: rgb(235, 165, 235);
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+}
+
+.caja3 h3{
+    padding-top: 45%;
+}
+
+.caja4{
+    background-color: rgb(231, 168, 139);
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+}
+
+.caja4 h3{
+    padding-top: 45%;
+}
+
+main div.laCaja2 div.caja6 h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.laCaja2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.caja5{
+    background-color: rgb(165, 165, 165);
+    width: 415px;
+    height: 50px;
+    margin-left: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.caja5 h3{
+    padding-top: 3%;
+}
+
+.caja6{
+    background-color: rgb(122, 109, 197);
+    width: 415px;
+    height: 50px;
+    margin-left: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.caja6 h3{
+    padding-top: 3%;
+}
+
+/* Para html CONTACTO */
+
+.elForm{
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+.elForm h2{
+    color: brown;
+}
+
+main form.elForm h2{
+    padding-left: 10px;
+}
+
+.formulario{
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.form1{
+    padding-top: 30px;
+}
+
+.form2{
+    padding-top: 20px;
+}
+
+.form3{
+    padding-top: 20px;
+}
+
+.form4{
+    padding-top: 20px;
+}
+
+.form5{
+    padding-top: 20px;
+}
+
+.form6{
+    padding-top: 20px;
+}
+
+/*  estilos de Footer */
+
+footer{
+    height: 90px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: bisque;
+    font-size: 14px;
+}
+
+/* mq 768px para arriba */
+
+@media (min-width: 768px) {
+    body{
+        background-color: purple;
+    }
+
+    .contenedor{
+        width: 600px;
+    }
+}
+
+
