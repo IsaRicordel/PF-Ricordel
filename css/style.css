@@ -40,9 +40,8 @@ header nav ul li{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    display: grid;
-    grid-template-rows: 400px;
-    grid-template-columns: 1fr;
+    height: 550px;
+    display: flex;
     margin-top: 5px;
     margin-bottom: 5px;
     align-items: center;
