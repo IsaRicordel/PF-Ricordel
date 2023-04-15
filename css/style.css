@@ -91,65 +91,18 @@ gap: 20px
 
 /* Para html SERVICIOS */
 
-.cuadro1 {
-    padding-top: 50px;
-    padding-left: 50px;
-    text-align: justify;
-    padding-right: 400px;
-    display: flex;
+.mainserv div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
-
-.cuadro1 p{
-    padding-top: 15px;
-}
-
-.img1{
-    width: 30%;
-    height: 25%;
-    margin-right: 15px;
-}
-
-.int1{
-    padding-top: 50px;
-}
-
-.cuadro2 {
-    padding-top: 40px;
-    padding-left: 50px;
-    text-align: justify;
-    padding-right: 400px; 
-    display: flex; 
-}
-
-.cuadro2 p{
-    padding-top: 15px;
-}
-
-.img2{
-    width: 350px;
-    height: 190px;
-    padding-left: 20px;
-    border-radius: 5%;
-}
-
-.cuadro3 {
-    padding-top: 40px;
-    padding-left: 50px;
-    text-align: justify;
-    padding-right: 400px;
-    padding-bottom: 50px;
-    display: flex; 
-}
-
-.cuadro3 p{
-    padding-top: 15px;
-}
-
-.img3{
-    width: 350px;
-    height: 190px;
-    padding-left: 20px;
-    border-radius: 5%;
+.mainserv{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+    gap: 1rem;
+    margin: 2rem 2rem 2rem 2rem;
+    min-height: calc(100vh - 160px);
 }
 
 /* Para html IDIOMAS */
@@ -320,6 +273,14 @@ footer{
         .nos2{
             width: 310px;
         }
+
+    /* Para html SERVICIOS */
+
+    .mainserv{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 0.3fr 0.3fr 0.3fr;
+        column-gap: 2rem;
+    }
     }
 
     @media (min-width: 1000px) {
@@ -340,5 +301,14 @@ footer{
             .nos2{
                 width: 400px;
             }
+
+    /* Para html SERVICIOS */
+
+    .mainserv{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 0.3fr 0.3fr;
+        column-gap: 2rem;
+    }
+
+
         }
-    
