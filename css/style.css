@@ -107,133 +107,78 @@ gap: 20px
 
 /* Para html IDIOMAS */
 
-.laCaja{
-    margin-top: 50px;
+.main-idiomas{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (6, 1fr);
+    margin: 2rem 2rem 2rem 2rem;
+    row-gap: 10px;
     min-height: calc(100vh - 160px);
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
     text-align: center;
+}
+
+.main-idiomas h3{
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .caja1{
     background-color: greenyellow;
-    width: 200px;
-    height: 60px;
-    margin-left: 15px;
-}
-
-.caja1{
-    padding-top: 15px;
 }
 
 .caja2{
     background-color: rgb(162, 208, 226);
-    width: 200px;
-    height: 60px;
-    margin-left: 15px;
-}
-
-.caja2{
-    padding-top: 15px;
 }
 
 .caja3{
     background-color: rgb(235, 165, 235);
-    width: 200px;
-    height: 60px;
-    margin-left: 15px;
-}
-
-.caja3{
-    padding-top: 15px;
 }
 
 .caja4{
     background-color: rgb(231, 168, 139);
-    width: 200px;
-    height: 60px;
-    margin-left: 15px;
 }
 
-.caja4{
-    padding-top: 15px;
-}
-
-main div.laCaja2 div.caja6 h3 a{
+main div.caja6 h3 a{
     text-decoration: none;
     color: black;
 }
 
-.laCaja2{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-    text-align: center; 
-    margin-bottom: 50px;;  
-}
-
 .caja5{
     background-color: rgb(165, 165, 165);
-    width: 200px;
-    height: 60px;
-    margin-left: 15px;
 }
 
 .caja6{
     background-color: rgb(122, 109, 197);
-    width: 200px;
-    height: 60px;
-    margin-left: 15px;
 }
 
 /* Para html CONTACTO */
 
-.elForm{
-    margin-top: 50px;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-bottom: 50px;
-}
-
-.elForm h2{
-    color: brown;
-}
-
-main form.elForm h2{
-    padding-left: 10px;
-}
-
 .formulario{
-    padding-left: 20px;
-    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.form1{
-    padding-top: 30px;
+.formulario-contacto{
+    background-color: rgba(244, 165, 96, 0.781);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10%;
 }
 
-.form2{
-    padding-top: 20px;
+.col-md-5{
+    padding-bottom: 17px;
 }
 
-.form3{
-    padding-top: 20px;
+.form-comunicate{
+    color: saddlebrown;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
 }
 
-.form4{
-    padding-top: 20px;
-}
-
-.form5{
-    padding-top: 20px;
-}
-
-.form6{
-    padding-top: 20px;
-}
 
 /*  estilos de Footer */
 
@@ -252,9 +197,6 @@ footer{
 /* mq 768px para arriba */
 
 @media (min-width: 768px) {
-    body{
-        background-color: purple;
-    }
 
     .contenedor{
         width: 600px;
@@ -281,12 +223,32 @@ footer{
         grid-template-rows: 0.3fr 0.3fr 0.3fr;
         column-gap: 2rem;
     }
+
+    /* Para html IDIOMAS */
+
+    .main-idiomas{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 40% 40% 15%;
+        row-gap: 10px;
+        column-gap: 10px;
+        margin: 5rem;        
+        align-content: center;
+        text-align: center;
+    }
+
+    .caja1, .caja2, .caja3, .caja4, h3{
+        font-size: 50px;
+        padding-top: 15%
+    }
+
+    /* Para HTML CONTACTO */
+    
+    .formulario-contacto{
+        width: 60%;
+    }
     }
 
     @media (min-width: 1000px) {
-        body{
-            background-color: tomato;
-        }
     
         /* html NOSOTROS */
     
@@ -310,5 +272,38 @@ footer{
         column-gap: 2rem;
     }
 
+    /* Para html IDIOMAS */
 
-        }
+    .main-idiomas{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 50% 15%;
+        margin: 4rem;
+        row-gap: 10px;
+        column-gap: 10px;
+        text-align: center;
+    }
+
+    .caja1, .caja2, .caja3, .caja4, h3{
+        font-size: 50px;
+        padding-top: 25%
+    }
+
+    .caja5, .caja6, h3{
+        font-size: 25px;
+        padding-top: 2%
+    }
+    .caja5{
+        grid-column: span 2;
+    }
+
+    .caja6{
+        grid-column: span 2;
+    }
+
+    /* Para HTML CONTACTO */
+  
+    .formulario-contacto{
+        width: 40%;
+    }   
+}
