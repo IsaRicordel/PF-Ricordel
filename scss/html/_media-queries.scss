@@ -1,0 +1,120 @@
+// utilidades importadas
+
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
+/* mq 768px para arriba */
+
+@media (min-width: 768px) {
+
+    .contenedor{
+        width: 600px;
+    }
+
+    /* html NOSOTROS */
+
+    .nosotros{
+
+        gap: 80px
+        }
+        
+        .nos1{
+            width: 310px;
+        }
+        
+        .nos2{
+            width: 310px;
+        }
+
+    /* Para html SERVICIOS */
+
+    .mainserv{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 0.3fr 0.3fr 0.3fr;
+        column-gap: 2rem;
+    }
+
+    /* Para html IDIOMAS */
+
+    .main-idiomas{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 40% 40% 15%;
+        row-gap: 10px;
+        column-gap: 10px;
+        margin: 5rem;        
+        align-content: center;
+        text-align: center;
+    }
+
+    .caja1, .caja2, .caja3, .caja4, h3{
+        font-size: 50px;
+        padding-top: 15%
+    }
+
+    /* Para HTML CONTACTO */
+    
+    .formulario-contacto{
+        width: 60%;
+    }
+    }
+
+    @media (min-width: 1000px) {
+    
+        /* html NOSOTROS */
+    
+        .nosotros{
+            gap: 100px
+            }
+            
+            .nos1{
+                width: 400px;
+            }
+            
+            .nos2{
+                width: 400px;
+            }
+
+    /* Para html SERVICIOS */
+
+    .mainserv{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 0.3fr 0.3fr;
+        column-gap: 2rem;
+    }
+
+    /* Para html IDIOMAS */
+
+    .main-idiomas{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 50% 15%;
+        margin: 4rem;
+        row-gap: 10px;
+        column-gap: 10px;
+        text-align: center;
+    }
+
+    .caja1, .caja2, .caja3, .caja4, h3{
+        font-size: 50px;
+        padding-top: 25%
+    }
+
+    .caja5, .caja6, h3{
+        font-size: 25px;
+        padding-top: 2%
+    }
+    .caja5{
+        grid-column: span 2;
+    }
+
+    .caja6{
+        grid-column: span 2;
+    }
+
+    /* Para HTML CONTACTO */
+  
+    .formulario-contacto{
+        width: 40%;
+    }   
+}

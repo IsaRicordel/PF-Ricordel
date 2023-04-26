@@ -1,0 +1,36 @@
+// utilidades importadas
+
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
+/* Para html NOSOTROS */
+
+section.cont1{
+    height: 100px;
+    background-color: rgba(143, 221, 195, 0.849);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-weight: 800;
+}
+
+.nosotros{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+min-height: calc(100vh - 160px);
+margin-top: 50px;
+margin-bottom: 50px;
+gap: 20px
+}
+
+.nos1{
+    width: 250px;
+}
+
+.nos2{
+    width: 250px;
+}

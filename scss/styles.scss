@@ -1,0 +1,16 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// import
+
+    @import "html/index";
+    @import "html/nosotros";
+    @import "html/servicios";
+    @import "html/idiomas";
+    @import "html/contacto";
+    @import "html/media-queries";

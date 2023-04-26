@@ -1,0 +1,21 @@
+// utilidades importadas
+
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
+/* Para html SERVICIOS */
+
+.mainserv div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.mainserv{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+    gap: 1rem;
+    margin: 2rem 2rem 2rem 2rem;
+    min-height: calc(100vh - 160px);
+}

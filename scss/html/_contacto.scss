@@ -1,0 +1,33 @@
+// utilidades importadas
+
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
+/* Para html CONTACTO */
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-contacto{
+    background-color: rgba(244, 165, 96, 0.781);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10%;
+}
+
+.col-md-5{
+    padding-bottom: 17px;
+}
+
+.form-comunicate{
+    color: saddlebrown;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}

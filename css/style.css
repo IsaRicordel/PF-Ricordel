@@ -1,312 +1,219 @@
 /* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* html INDEX */
 /* estilos de Header */
-
-header{
-    background-color: #ffe4c4;
-    font-family: 'Fira Sans', sans-serif;
-}
-
-.navbar-brand{
+header {
+  background-color: #ffe4c4;
+  font-family: 'Fira Sans', sans-serif; }
+  header nav div .navbar-brand {
     padding-top: 5px;
     margin: 10px;
     font-weight: 800;
     color: white;
-    -webkit-text-stroke: 0.7px saddlebrown;
-}
-
-header nav ul li{
-
+    -webkit-text-stroke: 0.7px saddlebrown; }
+  header nav div div ul li {
     text-align: center;
     font-size: 15px;
     padding: 1px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
-    background-color: rgba(233, 166, 108, 0.952);
-}
+    background-color: rgba(233, 166, 108, 0.952); }
 
 /* estilos de Main */
-
-main{
-    min-height: calc(100vh - 160px);
-}
-
-.banner{
-    background-image: url(../img/recordar-aprender-a-aprender.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    display: flex;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    align-items: center;
-    padding: 45px
-}
-
-.contenedor h2{
-    font-size: 40px;
-}
-
-.contenedor p{
-    font-size: 19px;
-}
-
-/* Para html NOSOTROS */
-
-section.cont1{
-    height: 100px;
-    background-color: rgba(143, 221, 195, 0.849);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5px;
-    font-weight: 800;
-}
-
-.nosotros{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-min-height: calc(100vh - 160px);
-margin-top: 50px;
-margin-bottom: 50px;
-gap: 20px
-}
-
-.nos1{
-    width: 250px;
-}
-
-.nos2{
-    width: 250px;
-}
-
-/* Para html SERVICIOS */
-
-.mainserv div img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-.mainserv{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
-    gap: 1rem;
-    margin: 2rem 2rem 2rem 2rem;
-    min-height: calc(100vh - 160px);
-}
-
-/* Para html IDIOMAS */
-
-.main-idiomas{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat (6, 1fr);
-    margin: 2rem 2rem 2rem 2rem;
-    row-gap: 10px;
-    min-height: calc(100vh - 160px);
-    text-align: center;
-}
-
-.main-idiomas h3{
-    font-size: 20px;
-    padding-top: 10px;
-}
-
-.caja1{
-    background-color: greenyellow;
-}
-
-.caja2{
-    background-color: rgb(162, 208, 226);
-}
-
-.caja3{
-    background-color: rgb(235, 165, 235);
-}
-
-.caja4{
-    background-color: rgb(231, 168, 139);
-}
-
-main div.caja6 h3 a{
-    text-decoration: none;
-    color: black;
-}
-
-.caja5{
-    background-color: rgb(165, 165, 165);
-}
-
-.caja6{
-    background-color: rgb(122, 109, 197);
-}
-
-/* Para html CONTACTO */
-
-.formulario{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.formulario-contacto{
-    background-color: rgba(244, 165, 96, 0.781);
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 20px;
-    width: 80%;
-    border-radius: 10%;
-}
-
-.col-md-5{
-    padding-bottom: 17px;
-}
-
-.form-comunicate{
-    color: saddlebrown;
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
-}
-
+.banner {
+  min-height: calc(100vh - 160px);
+  background-image: url(../img/recordar-aprender-a-aprender.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  align-items: center;
+  padding: 45px; }
+  .banner .contenedor h1 {
+    font-size: 40px; }
+  .banner .contenedor p {
+    font-size: 19px; }
 
 /*  estilos de Footer */
+footer {
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: bisque;
+  font-size: 14px; }
+  footer .footerblock {
+    padding-bottom: 10px; }
 
-footer{
-    text-align: center;
-    padding-top: 10px;
-    font-family: 'Fira Sans', sans-serif;
-    background-color: bisque;
-    font-size: 14px;
-}
+/* Para html NOSOTROS */
+section.cont1 {
+  height: 100px;
+  background-color: rgba(143, 221, 195, 0.849);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  font-weight: 800; }
 
-.footerblock{
-    padding-bottom: 10px;
-}
+.nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: calc(100vh - 160px);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 20px; }
+
+.nos1 {
+  width: 250px; }
+
+.nos2 {
+  width: 250px; }
+
+/* Para html SERVICIOS */
+.mainserv div img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; }
+
+.mainserv {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+  gap: 1rem;
+  margin: 2rem 2rem 2rem 2rem;
+  min-height: calc(100vh - 160px); }
+
+/* Para html IDIOMAS */
+.main-idiomas {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat 6, 1fr;
+  margin: 2rem 2rem 2rem 2rem;
+  row-gap: 10px;
+  min-height: calc(100vh - 160px);
+  text-align: center; }
+
+.main-idiomas h3 {
+  font-size: 20px;
+  padding-top: 10px; }
+
+.caja1 {
+  background-color: greenyellow; }
+
+.caja2 {
+  background-color: #a2d0e2; }
+
+.caja3 {
+  background-color: #eba5eb; }
+
+.caja4 {
+  background-color: #e7a88b; }
+
+main div.caja6 h3 a {
+  text-decoration: none;
+  color: black; }
+
+.caja5 {
+  background-color: #a5a5a5; }
+
+.caja6 {
+  background-color: #7a6dc5; }
+
+/* Para html CONTACTO */
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.formulario-contacto {
+  background-color: rgba(244, 165, 96, 0.781);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10%; }
+
+.col-md-5 {
+  padding-bottom: 17px; }
+
+.form-comunicate {
+  color: saddlebrown;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center; }
 
 /* mq 768px para arriba */
-
 @media (min-width: 768px) {
+  .contenedor {
+    width: 600px; }
+  /* html NOSOTROS */
+  .nosotros {
+    gap: 80px; }
+  .nos1 {
+    width: 310px; }
+  .nos2 {
+    width: 310px; }
+  /* Para html SERVICIOS */
+  .mainserv {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr;
+    column-gap: 2rem; }
+  /* Para html IDIOMAS */
+  .main-idiomas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40% 40% 15%;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 5rem;
+    align-content: center;
+    text-align: center; }
+  .caja1, .caja2, .caja3, .caja4, h3 {
+    font-size: 50px;
+    padding-top: 15%; }
+  /* Para HTML CONTACTO */
+  .formulario-contacto {
+    width: 60%; } }
 
-    .contenedor{
-        width: 600px;
-    }
-
-    /* html NOSOTROS */
-
-    .nosotros{
-
-        gap: 80px
-        }
-        
-        .nos1{
-            width: 310px;
-        }
-        
-        .nos2{
-            width: 310px;
-        }
-
-    /* Para html SERVICIOS */
-
-    .mainserv{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 0.3fr 0.3fr 0.3fr;
-        column-gap: 2rem;
-    }
-
-    /* Para html IDIOMAS */
-
-    .main-idiomas{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 40% 40% 15%;
-        row-gap: 10px;
-        column-gap: 10px;
-        margin: 5rem;        
-        align-content: center;
-        text-align: center;
-    }
-
-    .caja1, .caja2, .caja3, .caja4, h3{
-        font-size: 50px;
-        padding-top: 15%
-    }
-
-    /* Para HTML CONTACTO */
-    
-    .formulario-contacto{
-        width: 60%;
-    }
-    }
-
-    @media (min-width: 1000px) {
-    
-        /* html NOSOTROS */
-    
-        .nosotros{
-            gap: 100px
-            }
-            
-            .nos1{
-                width: 400px;
-            }
-            
-            .nos2{
-                width: 400px;
-            }
-
-    /* Para html SERVICIOS */
-
-    .mainserv{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 0.3fr 0.3fr;
-        column-gap: 2rem;
-    }
-
-    /* Para html IDIOMAS */
-
-    .main-idiomas{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 50% 15%;
-        margin: 4rem;
-        row-gap: 10px;
-        column-gap: 10px;
-        text-align: center;
-    }
-
-    .caja1, .caja2, .caja3, .caja4, h3{
-        font-size: 50px;
-        padding-top: 25%
-    }
-
-    .caja5, .caja6, h3{
-        font-size: 25px;
-        padding-top: 2%
-    }
-    .caja5{
-        grid-column: span 2;
-    }
-
-    .caja6{
-        grid-column: span 2;
-    }
-
-    /* Para HTML CONTACTO */
-  
-    .formulario-contacto{
-        width: 40%;
-    }   
-}
+@media (min-width: 1000px) {
+  /* html NOSOTROS */
+  .nosotros {
+    gap: 100px; }
+  .nos1 {
+    width: 400px; }
+  .nos2 {
+    width: 400px; }
+  /* Para html SERVICIOS */
+  .mainserv {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr;
+    column-gap: 2rem; }
+  /* Para html IDIOMAS */
+  .main-idiomas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50% 15%;
+    margin: 4rem;
+    row-gap: 10px;
+    column-gap: 10px;
+    text-align: center; }
+  .caja1, .caja2, .caja3, .caja4, h3 {
+    font-size: 50px;
+    padding-top: 25%; }
+  .caja5, .caja6, h3 {
+    font-size: 25px;
+    padding-top: 2%; }
+  .caja5 {
+    grid-column: span 2; }
+  .caja6 {
+    grid-column: span 2; }
+  /* Para HTML CONTACTO */
+  .formulario-contacto {
+    width: 40%; } }
