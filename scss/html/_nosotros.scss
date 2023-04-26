@@ -14,23 +14,25 @@ section.cont1{
     align-items: center;
     margin-top: 5px;
     font-weight: 800;
+    h1{}
 }
-
 .nosotros{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-min-height: calc(100vh - 160px);
-margin-top: 50px;
-margin-bottom: 50px;
-gap: 20px
-}
-
-.nos1{
-    width: 250px;
-}
-
-.nos2{
-    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 160px);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 20px;
+    .nos1{
+        width: 250px;
+        h2{}
+        p{}
+    }
+    .nos2{
+        width: 250px;
+        h2{}
+        p{}
+    }
 }

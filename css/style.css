@@ -70,19 +70,12 @@ section.cont1 {
   margin-top: 50px;
   margin-bottom: 50px;
   gap: 20px; }
-
-.nos1 {
-  width: 250px; }
-
-.nos2 {
-  width: 250px; }
+  .nosotros .nos1 {
+    width: 250px; }
+  .nosotros .nos2 {
+    width: 250px; }
 
 /* Para html SERVICIOS */
-.mainserv div img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain; }
-
 .mainserv {
   display: grid;
   grid-template-columns: 1fr;
@@ -90,6 +83,10 @@ section.cont1 {
   gap: 1rem;
   margin: 2rem 2rem 2rem 2rem;
   min-height: calc(100vh - 160px); }
+  .mainserv div img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; }
 
 /* Para html IDIOMAS */
 .main-idiomas {
@@ -100,55 +97,44 @@ section.cont1 {
   row-gap: 10px;
   min-height: calc(100vh - 160px);
   text-align: center; }
-
-.main-idiomas h3 {
-  font-size: 20px;
-  padding-top: 10px; }
-
-.caja1 {
-  background-color: greenyellow; }
-
-.caja2 {
-  background-color: #a2d0e2; }
-
-.caja3 {
-  background-color: #eba5eb; }
-
-.caja4 {
-  background-color: #e7a88b; }
-
-main div.caja6 h3 a {
-  text-decoration: none;
-  color: black; }
-
-.caja5 {
-  background-color: #a5a5a5; }
-
-.caja6 {
-  background-color: #7a6dc5; }
+  .main-idiomas div h3 {
+    font-size: 20px;
+    padding-top: 13px; }
+  .main-idiomas .caja1 {
+    background-color: greenyellow; }
+  .main-idiomas .caja2 {
+    background-color: #a2d0e2; }
+  .main-idiomas .caja3 {
+    background-color: #eba5eb; }
+  .main-idiomas .caja4 {
+    background-color: #e7a88b; }
+  .main-idiomas .caja5 {
+    background-color: #a5a5a5; }
+  .main-idiomas .caja6 {
+    background-color: #7a6dc5; }
+    .main-idiomas .caja6 h3 a {
+      text-decoration: none;
+      color: black; }
 
 /* Para html CONTACTO */
 .formulario {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-.formulario-contacto {
-  background-color: rgba(244, 165, 96, 0.781);
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 20px;
-  width: 80%;
-  border-radius: 10%; }
-
-.col-md-5 {
-  padding-bottom: 17px; }
-
-.form-comunicate {
-  color: saddlebrown;
-  font-size: 30px;
-  font-weight: 600;
-  text-align: center; }
+  .formulario .formulario-contacto {
+    background-color: rgba(244, 165, 96, 0.781);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10%; }
+    .formulario .formulario-contacto .form-comunicate {
+      color: saddlebrown;
+      font-size: 30px;
+      font-weight: 600;
+      text-align: center; }
+    .formulario .formulario-contacto .col-md-5 {
+      padding-bottom: 17px; }
 
 /* mq 768px para arriba */
 @media (min-width: 768px) {
@@ -157,10 +143,10 @@ main div.caja6 h3 a {
   /* html NOSOTROS */
   .nosotros {
     gap: 80px; }
-  .nos1 {
-    width: 310px; }
-  .nos2 {
-    width: 310px; }
+    .nosotros .nos1 {
+      width: 310px; }
+    .nosotros .nos2 {
+      width: 310px; }
   /* Para html SERVICIOS */
   .mainserv {
     grid-template-columns: repeat(2, 1fr);
@@ -175,21 +161,23 @@ main div.caja6 h3 a {
     margin: 5rem;
     align-content: center;
     text-align: center; }
-  .caja1, .caja2, .caja3, .caja4, h3 {
-    font-size: 50px;
-    padding-top: 15%; }
+    .main-idiomas .caja1 h3, .main-idiomas .caja2 h3, .main-idiomas .caja3 h3, .main-idiomas .caja4 h3 {
+      font-size: 25px;
+      padding-top: 55px; }
+    .main-idiomas .caja5 h3, .main-idiomas .caja6 h3 {
+      padding-top: 15px; }
   /* Para HTML CONTACTO */
-  .formulario-contacto {
+  .formulario .formulario-contacto {
     width: 60%; } }
 
 @media (min-width: 1000px) {
   /* html NOSOTROS */
   .nosotros {
     gap: 100px; }
-  .nos1 {
-    width: 400px; }
-  .nos2 {
-    width: 400px; }
+    .nosotros .nos1 {
+      width: 400px; }
+    .nosotros .nos2 {
+      width: 400px; }
   /* Para html SERVICIOS */
   .mainserv {
     grid-template-columns: repeat(3, 1fr);
@@ -204,16 +192,16 @@ main div.caja6 h3 a {
     row-gap: 10px;
     column-gap: 10px;
     text-align: center; }
-  .caja1, .caja2, .caja3, .caja4, h3 {
-    font-size: 50px;
-    padding-top: 25%; }
-  .caja5, .caja6, h3 {
-    font-size: 25px;
-    padding-top: 2%; }
-  .caja5 {
-    grid-column: span 2; }
-  .caja6 {
-    grid-column: span 2; }
+    .main-idiomas .caja1 h3, .main-idiomas .caja2 h3, .main-idiomas .caja3 h3, .main-idiomas .caja4 h3 {
+      font-size: 35px;
+      padding-top: 90px; }
+    .main-idiomas .caja5 h3, .main-idiomas .caja6 h3 {
+      font-size: 25px;
+      padding-top: 20px; }
+    .main-idiomas .caja5 {
+      grid-column: span 2; }
+    .main-idiomas .caja6 {
+      grid-column: span 2; }
   /* Para HTML CONTACTO */
-  .formulario-contacto {
+  .formulario .formulario-contacto {
     width: 40%; } }

@@ -4,6 +4,7 @@
 @import "../utilidades/mixin";
 @import "../utilidades/extend";
 
+
 /* mq 768px para arriba */
 
 @media (min-width: 768px) {
@@ -15,18 +16,15 @@
     /* html NOSOTROS */
 
     .nosotros{
-
-        gap: 80px
-        }
-        
+        gap: 80px;
         .nos1{
             width: 310px;
         }
-        
         .nos2{
             width: 310px;
         }
-
+    }
+        
     /* Para html SERVICIOS */
 
     .mainserv{
@@ -45,36 +43,42 @@
         margin: 5rem;        
         align-content: center;
         text-align: center;
-    }
-
-    .caja1, .caja2, .caja3, .caja4, h3{
-        font-size: 50px;
-        padding-top: 15%
+        .caja1, .caja2, .caja3, .caja4 {
+            h3{
+                font-size: 25px;
+                padding-top: 55px;
+            }   
+        }
+        .caja5, .caja6 {
+            h3{
+                padding-top: 15px;
+            }
+        }
     }
 
     /* Para HTML CONTACTO */
     
-    .formulario-contacto{
-        width: 60%;
+    .formulario{
+        .formulario-contacto{
+            width: 60%;
+        }
     }
+}
+
+@media (min-width: 1000px) {
+    
+    /* html NOSOTROS */
+    
+    .nosotros{
+        gap: 100px;
+        .nos1{
+            width: 400px;
+        }    
+        .nos2{
+            width: 400px;
+        }
     }
-
-    @media (min-width: 1000px) {
-    
-        /* html NOSOTROS */
-    
-        .nosotros{
-            gap: 100px
-            }
             
-            .nos1{
-                width: 400px;
-            }
-            
-            .nos2{
-                width: 400px;
-            }
-
     /* Para html SERVICIOS */
 
     .mainserv{
@@ -93,28 +97,31 @@
         row-gap: 10px;
         column-gap: 10px;
         text-align: center;
-    }
-
-    .caja1, .caja2, .caja3, .caja4, h3{
-        font-size: 50px;
-        padding-top: 25%
-    }
-
-    .caja5, .caja6, h3{
-        font-size: 25px;
-        padding-top: 2%
-    }
-    .caja5{
-        grid-column: span 2;
-    }
-
-    .caja6{
-        grid-column: span 2;
+        .caja1, .caja2, .caja3, .caja4{
+            h3{
+            font-size: 35px;
+            padding-top: 90px;
+            }
+        }
+        .caja5, .caja6{
+            h3{
+            font-size: 25px;
+            padding-top: 20px;
+            }
+        }
+        .caja5{
+            grid-column: span 2;
+        }
+        .caja6{
+            grid-column: span 2;
+        }    
     }
 
     /* Para HTML CONTACTO */
-  
-    .formulario-contacto{
-        width: 40%;
-    }   
+    
+    .formulario{
+        .formulario-contacto{
+            width: 40%;
+        }
+    }
 }
