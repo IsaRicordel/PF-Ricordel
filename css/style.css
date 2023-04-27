@@ -217,7 +217,20 @@ section.cont1 {
   .mainserv {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.3fr 0.3fr;
+    grid-template-areas: "cuadro1 cuadro2 cuadro3" "foto1 foto2 foto3";
     column-gap: 2rem; }
+    .mainserv .cuadro1 {
+      grid-area: cuadro1; }
+    .mainserv .cuadro2 {
+      grid-area: foto1; }
+    .mainserv .cuadro3 {
+      grid-area: cuadro2; }
+    .mainserv .cuadro4 {
+      grid-area: foto2; }
+    .mainserv .cuadro5 {
+      grid-area: cuadro3; }
+    .mainserv .cuadro6 {
+      grid-area: foto3; }
   /* Para html IDIOMAS */
   .main-idiomas {
     display: grid;

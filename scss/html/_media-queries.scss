@@ -84,7 +84,28 @@
     .mainserv{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 0.3fr 0.3fr;
+        grid-template-areas: 
+        "cuadro1 cuadro2 cuadro3"
+        "foto1 foto2 foto3";
         column-gap: 2rem;
+        .cuadro1{
+            grid-area: cuadro1;
+        }
+        .cuadro2{
+            grid-area: foto1;
+        }
+        .cuadro3{
+            grid-area: cuadro2;
+        }
+        .cuadro4{
+            grid-area: foto2;
+        }
+        .cuadro5{
+            grid-area: cuadro3;
+        }
+        .cuadro6{
+            grid-area: foto3;
+        }
     }
 
     /* Para html IDIOMAS */
