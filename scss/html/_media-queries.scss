@@ -44,13 +44,13 @@
         align-content: center;
         text-align: center;
         .caja1, .caja2, .caja3, .caja4 {
-            h3{
+            h2{
                 font-size: 25px;
                 padding-top: 55px;
             }   
         }
         .caja5, .caja6 {
-            h3{
+            h2{
                 padding-top: 15px;
             }
         }
@@ -113,29 +113,24 @@
     .main-idiomas{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 50% 15%;
+        grid-template-rows: 50% 10%;
         margin: 4rem;
         row-gap: 10px;
         column-gap: 10px;
         text-align: center;
         .caja1, .caja2, .caja3, .caja4{
-            h3{
+            h2{
             font-size: 35px;
             padding-top: 90px;
             }
         }
         .caja5, .caja6{
-            h3{
-            font-size: 25px;
-            padding-top: 20px;
+            grid-column: span 2;
+            h2{
+            font-size: 20px;
+            padding-top: 8px;
             }
         }
-        .caja5{
-            grid-column: span 2;
-        }
-        .caja6{
-            grid-column: span 2;
-        }    
     }
 
     /* Para HTML CONTACTO */

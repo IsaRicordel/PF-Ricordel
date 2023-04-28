@@ -7,9 +7,7 @@
 /* Para html CONTACTO */
 
 .formulario{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %usual-flex;
     .formulario-contacto{
         background-color: rgba(244, 165, 96, 0.781);
         margin-top: 50px;

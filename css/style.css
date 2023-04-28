@@ -4,6 +4,11 @@
   padding: 0;
   box-sizing: border-box; }
 
+section.cont1, .nosotros, .formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /* estilos de Header */
 header {
   background-color: #ffe4c4;
@@ -62,25 +67,24 @@ footer {
   text-align: center;
   padding-top: 10px;
   font-family: 'Fira Sans', sans-serif;
-  background-color: bisque;
+  background-color: #ffe4c4;
   font-size: 14px; }
   footer .footerblock {
     padding-bottom: 10px; }
+
+section.cont1, .nosotros, .formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 /* Para html NOSOTROS */
 section.cont1 {
   height: 100px;
   background-color: rgba(143, 221, 195, 0.849);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 5px;
   font-weight: 800; }
 
 .nosotros {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   min-height: calc(100vh - 160px);
   margin-top: 50px;
@@ -90,6 +94,11 @@ section.cont1 {
     width: 250px; }
   .nosotros .nos2 {
     width: 250px; }
+
+section.cont1, .nosotros, .formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 /* Para html SERVICIOS */
 .mainserv {
@@ -104,6 +113,11 @@ section.cont1 {
     height: 100%;
     object-fit: contain; }
 
+section.cont1, .nosotros, .formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /* Para html IDIOMAS */
 .main-idiomas {
   display: grid;
@@ -115,61 +129,67 @@ section.cont1 {
   text-align: center; }
   .main-idiomas div {
     border-radius: 3px; }
-    .main-idiomas div h3 {
+    .main-idiomas div h2 {
       font-size: 20px;
       padding-top: 13px; }
   .main-idiomas .caja1 {
-    background-image: url(../img/buenos-aires.jpg);
     color: white;
     background-size: cover;
     background-position: center center;
-    text-shadow: 1px 1px 2px black; }
+    text-shadow: 1px 1px 2px black;
+    background-image: url(../img/buenos-aires.jpg); }
   .main-idiomas .caja2 {
-    background-image: url(../img/museo-louvre.jpg);
-    color: white;
     font-weight: 800;
+    color: white;
     background-size: cover;
     background-position: center center;
-    text-shadow: 1px 1px 2px black; }
+    text-shadow: 1px 1px 2px black;
+    background-image: url(../img/museo-louvre.jpg); }
   .main-idiomas .caja3 {
-    background-image: url(../img/bing-bang.jpg);
     color: white;
     background-size: cover;
     background-position: center center;
-    text-shadow: 1px 1px 2px black; }
+    text-shadow: 1px 1px 2px black;
+    background-image: url(../img/bing-bang.jpg); }
   .main-idiomas .caja4 {
-    background-image: url(../img/rio-de-janeiro.jpg);
     color: white;
     background-size: cover;
     background-position: center center;
-    text-shadow: 1px 1px 2px black; }
+    text-shadow: 1px 1px 2px black;
+    background-image: url(../img/rio-de-janeiro.jpg); }
   .main-idiomas .caja5 {
     background-color: #a5a5a5; }
   .main-idiomas .caja6 {
     background-color: #7a6dc5; }
-    .main-idiomas .caja6 h3 a {
+    .main-idiomas .caja6 h2 a {
       text-decoration: none;
       color: black; }
 
-/* Para html CONTACTO */
-.formulario {
+section.cont1, .nosotros, .formulario {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .formulario .formulario-contacto {
-    background-color: rgba(244, 165, 96, 0.781);
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 20px;
-    width: 80%;
-    border-radius: 10%; }
-    .formulario .formulario-contacto .form-comunicate {
-      color: saddlebrown;
-      font-size: 30px;
-      font-weight: 600;
-      text-align: center; }
-    .formulario .formulario-contacto .col-md-5 {
-      padding-bottom: 17px; }
+
+/* Para html CONTACTO */
+.formulario .formulario-contacto {
+  background-color: rgba(244, 165, 96, 0.781);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10%; }
+  .formulario .formulario-contacto .form-comunicate {
+    color: saddlebrown;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center; }
+  .formulario .formulario-contacto .col-md-5 {
+    padding-bottom: 17px; }
+
+section.cont1, .nosotros, .formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 /* mq 768px para arriba */
 @media (min-width: 768px) {
@@ -196,10 +216,10 @@ section.cont1 {
     margin: 5rem;
     align-content: center;
     text-align: center; }
-    .main-idiomas .caja1 h3, .main-idiomas .caja2 h3, .main-idiomas .caja3 h3, .main-idiomas .caja4 h3 {
+    .main-idiomas .caja1 h2, .main-idiomas .caja2 h2, .main-idiomas .caja3 h2, .main-idiomas .caja4 h2 {
       font-size: 25px;
       padding-top: 55px; }
-    .main-idiomas .caja5 h3, .main-idiomas .caja6 h3 {
+    .main-idiomas .caja5 h2, .main-idiomas .caja6 h2 {
       padding-top: 15px; }
   /* Para HTML CONTACTO */
   .formulario .formulario-contacto {
@@ -235,21 +255,19 @@ section.cont1 {
   .main-idiomas {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 50% 15%;
+    grid-template-rows: 50% 10%;
     margin: 4rem;
     row-gap: 10px;
     column-gap: 10px;
     text-align: center; }
-    .main-idiomas .caja1 h3, .main-idiomas .caja2 h3, .main-idiomas .caja3 h3, .main-idiomas .caja4 h3 {
+    .main-idiomas .caja1 h2, .main-idiomas .caja2 h2, .main-idiomas .caja3 h2, .main-idiomas .caja4 h2 {
       font-size: 35px;
       padding-top: 90px; }
-    .main-idiomas .caja5 h3, .main-idiomas .caja6 h3 {
-      font-size: 25px;
-      padding-top: 20px; }
-    .main-idiomas .caja5 {
+    .main-idiomas .caja5, .main-idiomas .caja6 {
       grid-column: span 2; }
-    .main-idiomas .caja6 {
-      grid-column: span 2; }
+      .main-idiomas .caja5 h2, .main-idiomas .caja6 h2 {
+        font-size: 20px;
+        padding-top: 8px; }
   /* Para HTML CONTACTO */
   .formulario .formulario-contacto {
     width: 40%; } }

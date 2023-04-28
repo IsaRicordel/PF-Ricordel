@@ -1,0 +1,9 @@
+// mixin combinado
+
+@mixin idiomas-cajas ($fondo-imagen){
+    color: white;
+    background-size: cover;
+    background-position: center center;
+    text-shadow: 1px 1px 2px black;
+    background-image: $fondo-imagen;
+}

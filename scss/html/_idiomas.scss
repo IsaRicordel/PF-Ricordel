@@ -16,46 +16,30 @@
     text-align: center;
     div{
         border-radius: 3px;
-        h3{
+        h2{
             font-size: 20px;
             padding-top: 13px;
         }
     }
     .caja1{
-        background-image: url(../img/buenos-aires.jpg);
-        color: white;
-        background-size: cover;
-        background-position: center center;
-        text-shadow: 1px 1px 2px black;
+        @include idiomas-cajas (url(../img/buenos-aires.jpg));
     }
     .caja2{
-        background-image: url(../img/museo-louvre.jpg);
-        color: white;
         font-weight: 800;
-        background-size: cover;
-        background-position: center center;
-        text-shadow: 1px 1px 2px black;
+        @include idiomas-cajas (url(../img/museo-louvre.jpg));
     }
     .caja3{
-        background-image: url(../img/bing-bang.jpg);
-        color: white;
-        background-size: cover;
-        background-position: center center;
-        text-shadow: 1px 1px 2px black;
+        @include idiomas-cajas (url(../img/bing-bang.jpg));
     }
     .caja4{
-        background-image: url(../img/rio-de-janeiro.jpg);
-        color: white;
-        background-size: cover;
-        background-position: center center;
-        text-shadow: 1px 1px 2px black;
+        @include idiomas-cajas (url(../img/rio-de-janeiro.jpg));
     }
     .caja5{
         background-color: rgb(165, 165, 165);
     }
     .caja6{
         background-color: rgb(122, 109, 197);
-        h3{
+        h2{
             a{
                 text-decoration: none;
                 color: black;  

@@ -9,17 +9,13 @@
 section.cont1{
     height: 100px;
     background-color: rgba(143, 221, 195, 0.849);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %usual-flex;
     margin-top: 5px;
     font-weight: 800;
     h1{}
 }
 .nosotros{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %usual-flex;
     flex-wrap: wrap;
     min-height: calc(100vh - 160px);
     margin-top: 50px;
