@@ -198,20 +198,22 @@ section.cont1, .nosotros, .formulario {
   .formulario .formulario-contacto div textarea {
     background-color: rgba(175, 234, 236, 0.185);
     border-radius: 20px; }
-  .formulario .formulario-contacto div #boton {
-    margin-left: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
-    justify-content: center;
-    color: white;
-    border: 0;
-    border-radius: 20px;
-    background-color: #51D94C;
-    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
-    cursor: pointer; }
+  .formulario .formulario-contacto div .boton-active {
+    display: flex;
+    justify-content: center; }
+    .formulario .formulario-contacto div .boton-active #boton {
+      padding-left: 30px;
+      padding-right: 30px;
+      color: white;
+      border: 0;
+      border-radius: 20px;
+      background: linear-gradient(to right, #6bcfcf, #ffe4c4 70%);
+      box-shadow: 0 0 15px rgba(21, 64, 71, 0.808);
+      font-weight: 700;
+      cursor: pointer; }
   .formulario .formulario-contacto .form-comunicate {
     color: #6bcfcf;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 600;
     text-align: center; }
   .formulario .formulario-contacto .col-md-5 {
@@ -251,11 +253,16 @@ section.cont1, .nosotros, .formulario {
       font-size: 25px;
       padding-top: 55px; }
     .main-idiomas .caja5 h2, .main-idiomas .caja6 h2 {
-      padding-top: 15px; } }
-
-/* Para HTML CONTACTO */
-.formulario .formulario-contacto {
-  width: 60%; }
+      padding-top: 15px; }
+  /* Para HTML CONTACTO */
+  .formulario .formulario-contacto {
+    width: 60%; }
+    .formulario .formulario-contacto div .boton-active #boton {
+      padding-left: 35px;
+      padding-right: 35px; }
+    .formulario .formulario-contacto .form-comunicate {
+      font-size: 30px;
+      text-align: center; } }
 
 @media (min-width: 1000px) {
   /* html NOSOTROS */
@@ -302,4 +309,7 @@ section.cont1, .nosotros, .formulario {
         padding-top: 8px; }
   /* Para HTML CONTACTO */
   .formulario .formulario-contacto {
-    width: 40%; } }
+    width: 40%; }
+    .formulario .formulario-contacto div .boton-active #boton {
+      padding-left: 45px;
+      padding-right: 45px; } }

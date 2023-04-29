@@ -55,15 +55,25 @@
             }
         }
     }
-}
 
     /* Para HTML CONTACTO */
 
     .formulario{
         .formulario-contacto{
             width: 60%;
+            div .boton-active{
+                #boton{
+                    padding-left: 35px;
+                    padding-right: 35px;
+                } 
+            }
+            .form-comunicate{
+                font-size: 30px;
+                text-align: center;
+            }
         }
     }
+}
 
 @media (min-width: 1000px) {
     
@@ -138,6 +148,12 @@
     .formulario{
         .formulario-contacto{
             width: 40%;
+            div .boton-active{
+                #boton{
+                    padding-left: 45px;
+                    padding-right: 45px;
+                } 
+            }
         }
     }
 }

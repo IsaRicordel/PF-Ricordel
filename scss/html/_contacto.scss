@@ -27,22 +27,25 @@
             background-color: rgba(175, 234, 236, 0.185);
             border-radius: 20px;
             }
-            #boton{
-                margin-left: 25px;
-                padding-left: 30px;
-                padding-right: 30px;
+            .boton-active{
+                display: flex;
                 justify-content: center;
-                color: white;
-                border: 0;
-                border-radius: 20px;
-                background-color: #51D94C;
-                box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
-                cursor: pointer;
-            }              
+                #boton{
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    color: white;
+                    border: 0;
+                    border-radius: 20px;
+                    background: linear-gradient(to right, rgb(107, 207, 207), $color-heafoo 70%);
+                    box-shadow: 0 0 15px rgba(21, 64, 71, 0.808);
+                    font-weight: 700;
+                    cursor: pointer;
+                }                 
+            }     
         }
         .form-comunicate{
             color: rgb(107, 207, 207);
-            font-size: 30px;
+            font-size: 26px;
             font-weight: 600;
             text-align: center;
         }
