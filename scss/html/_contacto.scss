@@ -6,26 +6,53 @@
 
 /* Para html CONTACTO */
 
+/* Para html CONTACTO */
+
 .formulario{
     @extend %usual-flex;
     .formulario-contacto{
-        background-color: rgba(244, 165, 96, 0.781);
+        background-color: white;
+        box-shadow: 0 0 20px black;
         margin-top: 50px;
         margin-bottom: 50px;
         padding: 20px;
         width: 80%;
-        border-radius: 10%;
+        border-radius: 5%;
+        div{
+            input{
+            background-color: rgba(175, 234, 236, 0.185);
+            border-radius: 20px;
+            }
+            textarea{
+            background-color: rgba(175, 234, 236, 0.185);
+            border-radius: 20px;
+            }
+            #boton{
+                margin-left: 25px;
+                padding-left: 30px;
+                padding-right: 30px;
+                justify-content: center;
+                color: white;
+                border: 0;
+                border-radius: 20px;
+                background-color: #51D94C;
+                box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+                cursor: pointer;
+            }              
+        }
         .form-comunicate{
-            color: saddlebrown;
+            color: rgb(107, 207, 207);
             font-size: 30px;
             font-weight: 600;
             text-align: center;
         }
         .col-md-5{
             padding-bottom: 17px;
-        }    
+        }
     }
 }
+
+
 
 
 

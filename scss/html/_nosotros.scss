@@ -12,7 +12,6 @@ section.cont1{
     @extend %usual-flex;
     margin-top: 5px;
     font-weight: 800;
-    h1{}
 }
 .nosotros{
     @extend %usual-flex;
@@ -23,12 +22,8 @@ section.cont1{
     gap: 20px;
     .nos1{
         width: 250px;
-        h2{}
-        p{}
     }
     .nos2{
         width: 250px;
-        h2{}
-        p{}
     }
 }

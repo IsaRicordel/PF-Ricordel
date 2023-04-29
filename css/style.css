@@ -170,6 +170,12 @@ section.cont1, .nosotros, .formulario {
     .main-idiomas .caja6 h2 a {
       text-decoration: none;
       color: #31206d; }
+  .main-idiomas .caja6:hover {
+    background-color: #31206d;
+    border: 2px solid white;
+    border-radius: 20px; }
+    .main-idiomas .caja6:hover h2 a {
+      color: white; }
 
 section.cont1, .nosotros, .formulario {
   display: flex;
@@ -177,15 +183,34 @@ section.cont1, .nosotros, .formulario {
   align-items: center; }
 
 /* Para html CONTACTO */
+/* Para html CONTACTO */
 .formulario .formulario-contacto {
-  background-color: rgba(244, 165, 96, 0.781);
+  background-color: white;
+  box-shadow: 0 0 20px black;
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 20px;
   width: 80%;
-  border-radius: 10%; }
+  border-radius: 5%; }
+  .formulario .formulario-contacto div input {
+    background-color: rgba(175, 234, 236, 0.185);
+    border-radius: 20px; }
+  .formulario .formulario-contacto div textarea {
+    background-color: rgba(175, 234, 236, 0.185);
+    border-radius: 20px; }
+  .formulario .formulario-contacto div #boton {
+    margin-left: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    background-color: #51D94C;
+    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+    cursor: pointer; }
   .formulario .formulario-contacto .form-comunicate {
-    color: saddlebrown;
+    color: #6bcfcf;
     font-size: 30px;
     font-weight: 600;
     text-align: center; }
@@ -226,10 +251,11 @@ section.cont1, .nosotros, .formulario {
       font-size: 25px;
       padding-top: 55px; }
     .main-idiomas .caja5 h2, .main-idiomas .caja6 h2 {
-      padding-top: 15px; }
-  /* Para HTML CONTACTO */
-  .formulario .formulario-contacto {
-    width: 60%; } }
+      padding-top: 15px; } }
+
+/* Para HTML CONTACTO */
+.formulario .formulario-contacto {
+  width: 60%; }
 
 @media (min-width: 1000px) {
   /* html NOSOTROS */
@@ -274,13 +300,6 @@ section.cont1, .nosotros, .formulario {
       .main-idiomas .caja5 h2, .main-idiomas .caja6 h2 {
         font-size: 20px;
         padding-top: 8px; }
-    .main-idiomas .caja6:hover {
-      background-color: #31206d;
-      border: 2px solid white;
-      border-radius: 20px; }
-      .main-idiomas .caja6:hover h2 a {
-        color: white; } }
-
-/* Para HTML CONTACTO */
-.formulario .formulario-contacto {
-  width: 40%; }
+  /* Para HTML CONTACTO */
+  .formulario .formulario-contacto {
+    width: 40%; } }

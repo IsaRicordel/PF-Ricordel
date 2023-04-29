@@ -55,15 +55,15 @@
             }
         }
     }
+}
 
     /* Para HTML CONTACTO */
-    
+
     .formulario{
         .formulario-contacto{
             width: 60%;
         }
     }
-}
 
 @media (min-width: 1000px) {
     
@@ -131,23 +131,13 @@
                 padding-top: 8px;
             }
         }
-        .caja6:hover{
-            background-color: rgb(49, 32, 109);
-            border: 2px solid white;
-            border-radius: 20px;  
-            h2{
-                a{
-                    color: white;
-                }
-            }
-        }
     }
-}
 
     /* Para HTML CONTACTO */
-    
+
     .formulario{
         .formulario-contacto{
             width: 40%;
         }
     }
+}
