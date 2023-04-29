@@ -85,8 +85,8 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 0.3fr 0.3fr;
         grid-template-areas: 
-        "cuadro1 cuadro2 cuadro3"
-        "foto1 foto2 foto3";
+        "foto1 foto2 foto3"
+        "cuadro1 cuadro2 cuadro3";
         column-gap: 2rem;
         .cuadro1{
             grid-area: cuadro1;
@@ -127,11 +127,22 @@
         .caja5, .caja6{
             grid-column: span 2;
             h2{
-            font-size: 20px;
-            padding-top: 8px;
+                font-size: 20px;
+                padding-top: 8px;
+            }
+        }
+        .caja6:hover{
+            background-color: rgb(49, 32, 109);
+            border: 2px solid white;
+            border-radius: 20px;  
+            h2{
+                a{
+                    color: white;
+                }
             }
         }
     }
+}
 
     /* Para HTML CONTACTO */
     
@@ -140,4 +151,3 @@
             width: 40%;
         }
     }
-}

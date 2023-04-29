@@ -111,7 +111,8 @@ section.cont1, .nosotros, .formulario {
   .mainserv div img {
     width: 100%;
     height: 100%;
-    object-fit: contain; }
+    object-fit: contain;
+    box-shadow: 5px 5px 10px 0 #4b4949; }
 
 section.cont1, .nosotros, .formulario {
   display: flex;
@@ -122,7 +123,7 @@ section.cont1, .nosotros, .formulario {
 .main-idiomas {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat 6, 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 0.5fr 0.5fr;
   margin: 2rem 2rem 2rem 2rem;
   row-gap: 10px;
   min-height: calc(100vh - 160px);
@@ -158,12 +159,17 @@ section.cont1, .nosotros, .formulario {
     text-shadow: 1px 1px 2px black;
     background-image: url(../img/rio-de-janeiro.jpg); }
   .main-idiomas .caja5 {
-    background-color: #a5a5a5; }
+    background-color: whitesmoke;
+    border: 2px solid #583bc2; }
+    .main-idiomas .caja5 h2 {
+      color: #583bc2; }
   .main-idiomas .caja6 {
-    background-color: #7a6dc5; }
+    background-color: rgba(49, 32, 109, 0.11);
+    border: 2px solid #31206d;
+    border-radius: 12px; }
     .main-idiomas .caja6 h2 a {
       text-decoration: none;
-      color: black; }
+      color: #31206d; }
 
 section.cont1, .nosotros, .formulario {
   display: flex;
@@ -237,7 +243,7 @@ section.cont1, .nosotros, .formulario {
   .mainserv {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.3fr 0.3fr;
-    grid-template-areas: "cuadro1 cuadro2 cuadro3" "foto1 foto2 foto3";
+    grid-template-areas: "foto1 foto2 foto3" "cuadro1 cuadro2 cuadro3";
     column-gap: 2rem; }
     .mainserv .cuadro1 {
       grid-area: cuadro1; }
@@ -268,6 +274,13 @@ section.cont1, .nosotros, .formulario {
       .main-idiomas .caja5 h2, .main-idiomas .caja6 h2 {
         font-size: 20px;
         padding-top: 8px; }
-  /* Para HTML CONTACTO */
-  .formulario .formulario-contacto {
-    width: 40%; } }
+    .main-idiomas .caja6:hover {
+      background-color: #31206d;
+      border: 2px solid white;
+      border-radius: 20px; }
+      .main-idiomas .caja6:hover h2 a {
+        color: white; } }
+
+/* Para HTML CONTACTO */
+.formulario .formulario-contacto {
+  width: 40%; }
