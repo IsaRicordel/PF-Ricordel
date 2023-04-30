@@ -8,7 +8,7 @@
 
 section.cont1{
     height: 100px;
-    background-color: rgba(143, 221, 195, 0.849);
+    background-color: $color-secundario;
     @extend %usual-flex;
     margin-top: 5px;
     font-weight: 800;

@@ -11,14 +11,13 @@ section.cont1, .nosotros, .formulario {
 
 /* estilos de Header */
 header {
-  background-color: #ffe4c4;
+  background-color: #17252A;
   font-family: 'Fira Sans', sans-serif; }
   header nav div .navbar-brand {
     padding-top: 5px;
     margin: 10px;
-    font-weight: 800;
-    color: white;
-    -webkit-text-stroke: 0.7px saddlebrown; }
+    font-weight: 700;
+    color: white; }
   header nav div div ul li {
     text-align: center;
     font-size: 15px;
@@ -26,7 +25,8 @@ header {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
-    background-color: rgba(233, 166, 108, 0.952); }
+    background-color: #17252a;
+    border: 1px solid #8fddc3d8; }
 
 /* estilos de Main */
 .banner {
@@ -67,7 +67,8 @@ footer {
   text-align: center;
   padding-top: 10px;
   font-family: 'Fira Sans', sans-serif;
-  background-color: #ffe4c4;
+  background-color: #17252A;
+  color: white;
   font-size: 14px; }
   footer .footerblock {
     padding-bottom: 10px; }
@@ -80,7 +81,7 @@ section.cont1, .nosotros, .formulario {
 /* Para html NOSOTROS */
 section.cont1 {
   height: 100px;
-  background-color: rgba(143, 221, 195, 0.849);
+  background-color: #8fddc3d8;
   margin-top: 5px;
   font-weight: 800; }
 
@@ -184,6 +185,10 @@ section.cont1, .nosotros, .formulario {
 
 /* Para html CONTACTO */
 /* Para html CONTACTO */
+.cont1 h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 900; }
+
 .formulario .formulario-contacto {
   background-color: white;
   box-shadow: 0 0 20px black;
@@ -207,7 +212,7 @@ section.cont1, .nosotros, .formulario {
       color: white;
       border: 0;
       border-radius: 20px;
-      background: linear-gradient(to right, #6bcfcf, #ffe4c4 70%);
+      background: linear-gradient(to right, #8fddc3d8, #17252A 70%);
       box-shadow: 0 0 15px rgba(21, 64, 71, 0.808);
       font-weight: 700;
       cursor: pointer; }

@@ -8,6 +8,12 @@
 
 /* Para html CONTACTO */
 
+.cont1{
+    h1{
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 900;
+    }
+}
 .formulario{
     @extend %usual-flex;
     .formulario-contacto{
@@ -36,7 +42,7 @@
                     color: white;
                     border: 0;
                     border-radius: 20px;
-                    background: linear-gradient(to right, rgb(107, 207, 207), $color-heafoo 70%);
+                    background: linear-gradient(to right, $color-secundario, $color-heafoo 70%);
                     box-shadow: 0 0 15px rgba(21, 64, 71, 0.808);
                     font-weight: 700;
                     cursor: pointer;
