@@ -27,6 +27,11 @@ header {
     border-radius: 10px;
     background-color: #17252a;
     border: 1px solid #8fddc3d8; }
+  header nav div div ul .nav-item, header nav div div ul .nav-link {
+    color: #8fddc3d8; }
+  header nav div div ul .nav-link:hover {
+    background-color: #8fddc3d8;
+    border-radius: 10px; }
 
 /* estilos de Main */
 .banner {
@@ -72,6 +77,10 @@ footer {
   font-size: 14px; }
   footer .footerblock {
     padding-bottom: 10px; }
+    footer .footerblock a svg {
+      color: #8fddc3d8; }
+    footer .footerblock a .icon-fbk {
+      margin-right: 5px; }
 
 section.cont1, .nosotros, .formulario {
   display: flex;
@@ -199,7 +208,7 @@ section.cont1, .nosotros, .formulario {
   border-radius: 5%; }
   .formulario .formulario-contacto div input {
     background-color: rgba(175, 234, 236, 0.185);
-    border-radius: 20px; }
+    border-radius: 5px; }
   .formulario .formulario-contacto div textarea {
     background-color: rgba(175, 234, 236, 0.185);
     border-radius: 20px; }
@@ -212,15 +221,17 @@ section.cont1, .nosotros, .formulario {
       color: white;
       border: 0;
       border-radius: 20px;
-      background: linear-gradient(to right, #8fddc3d8, #17252A 70%);
+      background: linear-gradient(to left, #8fddc3d8, #17252A 80%);
       box-shadow: 0 0 15px rgba(21, 64, 71, 0.808);
       font-weight: 700;
       cursor: pointer; }
   .formulario .formulario-contacto .form-comunicate {
-    color: #6bcfcf;
+    color: #8fddc3d8;
     font-size: 26px;
     font-weight: 600;
     text-align: center; }
+    .formulario .formulario-contacto .form-comunicate p {
+      text-shadow: 2px 2px 5px rgba(172, 180, 180, 0.808); }
   .formulario .formulario-contacto .col-md-5 {
     padding-bottom: 17px; }
 

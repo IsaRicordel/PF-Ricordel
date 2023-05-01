@@ -27,7 +27,7 @@
         div{
             input{
             background-color: rgba(175, 234, 236, 0.185);
-            border-radius: 20px;
+            border-radius: 5px;
             }
             textarea{
             background-color: rgba(175, 234, 236, 0.185);
@@ -42,7 +42,7 @@
                     color: white;
                     border: 0;
                     border-radius: 20px;
-                    background: linear-gradient(to right, $color-secundario, $color-heafoo 70%);
+                    background: linear-gradient(to left, $color-secundario, $color-heafoo 80%);
                     box-shadow: 0 0 15px rgba(21, 64, 71, 0.808);
                     font-weight: 700;
                     cursor: pointer;
@@ -50,10 +50,13 @@
             }     
         }
         .form-comunicate{
-            color: rgb(107, 207, 207);
+            color: $color-secundario;
             font-size: 26px;
             font-weight: 600;
             text-align: center;
+            p{
+                text-shadow: 2px 2px 5px rgba(172, 180, 180, 0.808);               
+            }
         }
         .col-md-5{
             padding-bottom: 17px;

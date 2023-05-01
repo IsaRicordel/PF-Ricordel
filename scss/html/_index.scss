@@ -29,6 +29,13 @@ header{
                         background-color: #17252a;
                         border: 1px solid $color-secundario;                          
                     }
+                    .nav-item, .nav-link{
+                        color: $color-secundario;
+                    }
+                    .nav-link:hover{
+                        background-color: $color-secundario;
+                        border-radius: 10px;
+                    }
                 }
             }
         }
@@ -90,5 +97,13 @@ footer{
     font-size: 14px;
     .footerblock{
         padding-bottom: 10px;
+        a{
+            svg{
+                color: $color-secundario;
+            }
+            .icon-fbk{
+                margin-right: 5px;
+            }
+        }
     }
 }
