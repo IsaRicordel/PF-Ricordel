@@ -17,6 +17,11 @@ header{
                 font-weight: 700;
                 color: white;
             }
+            .navbar-toggler{
+                border: 1px solid $color-secundario;
+                .navbar-toggler-icon{
+                }
+            }
             div{
                 ul{
                     li{

@@ -18,6 +18,8 @@ header {
     margin: 10px;
     font-weight: 700;
     color: white; }
+  header nav div .navbar-toggler {
+    border: 1px solid #8fddc3d8; }
   header nav div div ul li {
     text-align: center;
     font-size: 15px;
@@ -170,7 +172,8 @@ section.cont1, .nosotros, .formulario {
     background-image: url(../img/rio-de-janeiro.jpg); }
   .main-idiomas .caja5 {
     background-color: whitesmoke;
-    border: 2px solid #583bc2; }
+    border: 2px solid #583bc2;
+    border-radius: 12px 0 12px 0; }
     .main-idiomas .caja5 h2 {
       color: #583bc2; }
   .main-idiomas .caja6 {
