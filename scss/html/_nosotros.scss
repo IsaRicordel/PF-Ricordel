@@ -22,8 +22,58 @@ section.cont1{
     gap: 20px;
     .nos1{
         width: 250px;
+        text-align: justify;
+        h2{
+            animation: mover-dere-izq 4s 1;
+        }
+        p{
+            animation-name: fade-rgt;
+            animation-duration: 6s; 
+        }
+        @keyframes mover-dere-izq {
+            from{
+                transform: translateX(100px);
+            }
+            to{
+                transform: translateX(-5px);
+            }
+        }
+        @keyframes fade-rgt {
+            from{
+                opacity: 0%;
+            }
+            to{
+                opacity: 100%;
+            }
+        }
     }
     .nos2{
         width: 250px;
+        text-align: justify;
+        h2{
+            animation: mover-dere-izq 4s 1;
+        }
+        p{
+            animation-name: fade-rgt;
+            animation-duration: 6s; 
+        }
+        @keyframes mover-dere-izq {
+            from{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            to{
+                transform: translateX(-5px);
+                opacity: 100px;
+            }
+        }
+        @keyframes fade-rgt {
+            from{
+                opacity: 0%;
+            }
+            to{
+                opacity: 100%;
+            }
+        }
     }
 }

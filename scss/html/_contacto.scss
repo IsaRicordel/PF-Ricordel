@@ -42,20 +42,43 @@
                     color: white;
                     border: 0;
                     border-radius: 20px;
-                    background: linear-gradient(to left, $color-secundario, $color-heafoo 80%);
+                    background: linear-gradient(45deg, $color-heafoo 15%, $color-secundario 80%);
+                    background-size: 130% 130%;
+                    animation: color 4s ease-in-out infinite;
                     box-shadow: 0 0 15px rgba(21, 64, 71, 0.808);
                     font-weight: 700;
                     cursor: pointer;
-                }                 
+                }
+                @keyframes color {
+                    0%{
+                        background-position: 0 50%;
+                    }
+                    50%{
+                        background-position: 100% 50%;
+                    }
+                    100%{
+                        background-position: 0 50%;
+                    }                    
+                }             
             }     
         }
         .form-comunicate{
-            color: $color-secundario;
+            color: #042e30c5;
             font-size: 26px;
             font-weight: 600;
-            text-align: center;
             p{
-                text-shadow: 2px 2px 5px rgba(172, 180, 180, 0.808);               
+                text-shadow: 2px 2px 5px rgba(172, 180, 180, 0.808);
+                width: 100%;
+                letter-spacing: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                animation: 
+                    typing 2s,
+                    cursor .4s step-end infinite alternate;              
+            }
+            /*typing effect*/
+            @keyframes typing {
+                from { width: 0 }
             }
         }
         .col-md-5{
