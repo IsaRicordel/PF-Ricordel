@@ -68,17 +68,18 @@
             font-weight: 600;
             p{
                 text-shadow: 2px 2px 5px rgba(172, 180, 180, 0.808);
+                text-align: center;
                 width: 100%;
-                letter-spacing: 5px;
+                letter-spacing: 3px;
                 white-space: nowrap;
                 overflow: hidden;
                 animation: 
-                    typing 2s,
-                    cursor .4s step-end infinite alternate;              
+                    typing 2s;
+          
             }
             /*efecto typing*/
             @keyframes typing {
-                from { width: 0 }
+                from { width: 0; }
             }
         }
         .col-md-5{

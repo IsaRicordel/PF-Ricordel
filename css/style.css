@@ -398,11 +398,12 @@ section.cont1, .nosotros, .formulario {
     /*efecto typing*/ }
     .formulario .formulario-contacto .form-comunicate p {
       text-shadow: 2px 2px 5px rgba(172, 180, 180, 0.808);
+      text-align: center;
       width: 100%;
-      letter-spacing: 5px;
+      letter-spacing: 3px;
       white-space: nowrap;
       overflow: hidden;
-      animation: typing 2s, cursor .4s step-end infinite alternate; }
+      animation: typing 2s; }
 
 @keyframes typing {
   from {
