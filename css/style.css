@@ -165,6 +165,46 @@ section.cont1, .nosotros, .formulario {
     height: 100%;
     object-fit: contain;
     box-shadow: 5px 5px 10px 0 #4b4949; }
+  .mainserv .cuadro2, .mainserv .cuadro4, .mainserv .cuadro6 {
+    animation: FadeTop 1s both; }
+
+@keyframes FadeTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+  .mainserv .cuadro1 {
+    animation: FadeTop 3s both; }
+
+@keyframes FadeTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+  .mainserv .cuadro3 {
+    animation: FadeTop 4s both; }
+
+@keyframes FadeTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+  .mainserv .cuadro5 {
+    animation: FadeTop 5s both; }
+
+@keyframes FadeTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
 
 section.cont1, .nosotros, .formulario {
   display: flex;
