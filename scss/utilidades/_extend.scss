@@ -1,9 +1,40 @@
 // extend
 
+// Para HTML Nosotros
+
 %usual-flex{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+%nos{
+    width: 250px;
+    text-align: justify;
+}
+
+%animation-mover{
+    animation: mover-dere-izq 4s 1;
+    @keyframes mover-dere-izq {
+        from{
+            transform: translateX(100px);
+        }
+        to{
+            transform: translateX(-5px);
+        }
+    }
+}
+
+%animation-fade-rgt{
+    animation-name: fade-rgt;
+    animation-duration: 6s; 
+    @keyframes fade-rgt {
+        from{
+            opacity: 0%;
+        }
+        to{
+            opacity: 100%;
+        }
+    }
+}
 

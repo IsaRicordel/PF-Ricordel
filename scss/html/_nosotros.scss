@@ -21,59 +21,21 @@ section.cont1{
     margin-bottom: 50px;
     gap: 20px;
     .nos1{
-        width: 250px;
-        text-align: justify;
+        @extend %nos;
         h2{
-            animation: mover-dere-izq 4s 1;
+            @extend %animation-mover;
         }
         p{
-            animation-name: fade-rgt;
-            animation-duration: 6s; 
-        }
-        @keyframes mover-dere-izq {
-            from{
-                transform: translateX(100px);
-            }
-            to{
-                transform: translateX(-5px);
-            }
-        }
-        @keyframes fade-rgt {
-            from{
-                opacity: 0%;
-            }
-            to{
-                opacity: 100%;
-            }
+            @extend %animation-fade-rgt;
         }
     }
     .nos2{
-        width: 250px;
-        text-align: justify;
+        @extend %nos;
         h2{
-            animation: mover-dere-izq 4s 1;
+            @extend %animation-mover;
         }
         p{
-            animation-name: fade-rgt;
-            animation-duration: 6s; 
-        }
-        @keyframes mover-dere-izq {
-            from{
-                transform: translateX(100px);
-                opacity: 0;
-            }
-            to{
-                transform: translateX(-5px);
-                opacity: 100px;
-            }
-        }
-        @keyframes fade-rgt {
-            from{
-                opacity: 0%;
-            }
-            to{
-                opacity: 100%;
-            }
+            @extend %animation-fade-rgt;
         }
     }
 }

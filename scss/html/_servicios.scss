@@ -23,56 +23,15 @@
         box-shadow: 5px 5px 10px 0 rgb(75, 73, 73);
     }
     .cuadro2, .cuadro4, .cuadro6{
-        animation: FadeTop 1s both;
-    }
-    @keyframes FadeTop {
-        0%{
-            opacity: 0;
-            transform: translateY(-50px);
-        }
-        100%{
-            opacity: 1;
-            transform: translateY(0px);
-        }
+        @include fade-top (1s);
     }
     .cuadro1{
-        animation: FadeTop 3s both;
-    }
-    @keyframes FadeTop {
-        0%{
-            opacity: 0;
-            transform: translateY(-50px);
-        }
-        100%{
-            opacity: 1;
-            transform: translateY(0px);
-        }
+        @include fade-top (3s);
     }
     .cuadro3{
-        animation: FadeTop 4s both;
+        @include fade-top (4s);
     }
-    @keyframes FadeTop {
-        0%{
-            opacity: 0;
-            transform: translateY(-50px);
-        }
-        100%{
-            opacity: 1;
-            transform: translateY(0px);
-        }
-    }
-
     .cuadro5{
-        animation: FadeTop 5s both;
-    }
-    @keyframes FadeTop {
-        0%{
-            opacity: 0;
-            transform: translateY(-50px);
-        }
-        100%{
-            opacity: 1;
-            transform: translateY(0px);
-        }
+        @include fade-top (5s);
     }
 }

@@ -9,6 +9,29 @@ section.cont1, .nosotros, .formulario {
   justify-content: center;
   align-items: center; }
 
+.nosotros .nos1, .nosotros .nos2 {
+  width: 250px;
+  text-align: justify; }
+
+.nosotros .nos1 h2, .nosotros .nos2 h2 {
+  animation: mover-dere-izq 4s 1; }
+
+@keyframes mover-dere-izq {
+  from {
+    transform: translateX(100px); }
+  to {
+    transform: translateX(-5px); } }
+
+.nosotros .nos1 p, .nosotros .nos2 p {
+  animation-name: fade-rgt;
+  animation-duration: 6s; }
+
+@keyframes fade-rgt {
+  from {
+    opacity: 0%; }
+  to {
+    opacity: 100%; } }
+
 /* estilos de Header */
 header {
   background-color: #17252A;
@@ -89,6 +112,29 @@ section.cont1, .nosotros, .formulario {
   justify-content: center;
   align-items: center; }
 
+.nosotros .nos1, .nosotros .nos2 {
+  width: 250px;
+  text-align: justify; }
+
+.nosotros .nos1 h2, .nosotros .nos2 h2 {
+  animation: mover-dere-izq 4s 1; }
+
+@keyframes mover-dere-izq {
+  from {
+    transform: translateX(100px); }
+  to {
+    transform: translateX(-5px); } }
+
+.nosotros .nos1 p, .nosotros .nos2 p {
+  animation-name: fade-rgt;
+  animation-duration: 6s; }
+
+@keyframes fade-rgt {
+  from {
+    opacity: 0%; }
+  to {
+    opacity: 100%; } }
+
 /* Para html NOSOTROS */
 section.cont1 {
   height: 100px;
@@ -102,14 +148,18 @@ section.cont1 {
   margin-top: 50px;
   margin-bottom: 50px;
   gap: 20px; }
-  .nosotros .nos1 {
-    width: 250px;
-    text-align: justify; }
-    .nosotros .nos1 h2 {
-      animation: mover-dere-izq 4s 1; }
-    .nosotros .nos1 p {
-      animation-name: fade-rgt;
-      animation-duration: 6s; }
+
+section.cont1, .nosotros, .formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.nosotros .nos1, .nosotros .nos2 {
+  width: 250px;
+  text-align: justify; }
+
+.nosotros .nos1 h2, .nosotros .nos2 h2 {
+  animation: mover-dere-izq 4s 1; }
 
 @keyframes mover-dere-izq {
   from {
@@ -117,38 +167,15 @@ section.cont1 {
   to {
     transform: translateX(-5px); } }
 
-@keyframes fade-rgt {
-  from {
-    opacity: 0%; }
-  to {
-    opacity: 100%; } }
-  .nosotros .nos2 {
-    width: 250px;
-    text-align: justify; }
-    .nosotros .nos2 h2 {
-      animation: mover-dere-izq 4s 1; }
-    .nosotros .nos2 p {
-      animation-name: fade-rgt;
-      animation-duration: 6s; }
-
-@keyframes mover-dere-izq {
-  from {
-    transform: translateX(100px);
-    opacity: 0; }
-  to {
-    transform: translateX(-5px);
-    opacity: 100px; } }
+.nosotros .nos1 p, .nosotros .nos2 p {
+  animation-name: fade-rgt;
+  animation-duration: 6s; }
 
 @keyframes fade-rgt {
   from {
     opacity: 0%; }
   to {
     opacity: 100%; } }
-
-section.cont1, .nosotros, .formulario {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
 /* Para html SERVICIOS */
 .mainserv {
@@ -210,6 +237,29 @@ section.cont1, .nosotros, .formulario {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.nosotros .nos1, .nosotros .nos2 {
+  width: 250px;
+  text-align: justify; }
+
+.nosotros .nos1 h2, .nosotros .nos2 h2 {
+  animation: mover-dere-izq 4s 1; }
+
+@keyframes mover-dere-izq {
+  from {
+    transform: translateX(100px); }
+  to {
+    transform: translateX(-5px); } }
+
+.nosotros .nos1 p, .nosotros .nos2 p {
+  animation-name: fade-rgt;
+  animation-duration: 6s; }
+
+@keyframes fade-rgt {
+  from {
+    opacity: 0%; }
+  to {
+    opacity: 100%; } }
 
 /* Para html IDIOMAS */
 .main-idiomas {
@@ -274,6 +324,29 @@ section.cont1, .nosotros, .formulario {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.nosotros .nos1, .nosotros .nos2 {
+  width: 250px;
+  text-align: justify; }
+
+.nosotros .nos1 h2, .nosotros .nos2 h2 {
+  animation: mover-dere-izq 4s 1; }
+
+@keyframes mover-dere-izq {
+  from {
+    transform: translateX(100px); }
+  to {
+    transform: translateX(-5px); } }
+
+.nosotros .nos1 p, .nosotros .nos2 p {
+  animation-name: fade-rgt;
+  animation-duration: 6s; }
+
+@keyframes fade-rgt {
+  from {
+    opacity: 0%; }
+  to {
+    opacity: 100%; } }
 
 /* Para html CONTACTO */
 /* Para html CONTACTO */
@@ -341,6 +414,29 @@ section.cont1, .nosotros, .formulario {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.nosotros .nos1, .nosotros .nos2 {
+  width: 250px;
+  text-align: justify; }
+
+.nosotros .nos1 h2, .nosotros .nos2 h2 {
+  animation: mover-dere-izq 4s 1; }
+
+@keyframes mover-dere-izq {
+  from {
+    transform: translateX(100px); }
+  to {
+    transform: translateX(-5px); } }
+
+.nosotros .nos1 p, .nosotros .nos2 p {
+  animation-name: fade-rgt;
+  animation-duration: 6s; }
+
+@keyframes fade-rgt {
+  from {
+    opacity: 0%; }
+  to {
+    opacity: 100%; } }
 
 /* mq 768px para arriba */
 @media (min-width: 768px) {

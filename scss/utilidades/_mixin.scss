@@ -1,9 +1,42 @@
 // mixin combinado
 
+// Para HTML index
+@mixin animation-main ($font-size, $duration){
+    font-size: $font-size;
+    animation-name: fade-right;
+    animation-duration: $duration;
+    @keyframes fade-right {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+}
+
+// Para HTML idiomas
+
 @mixin idiomas-cajas ($fondo-imagen){
     color: white;
     background-size: cover;
     background-position: center center;
     text-shadow: 1px 1px 2px black;
     background-image: $fondo-imagen;
+}
+
+// Para HTML Servicios
+
+@mixin fade-top ($duration){
+    animation: FadeTop $duration both;
+    @keyframes FadeTop {
+        0%{
+            opacity: 0;
+            transform: translateY(-50px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
 }
